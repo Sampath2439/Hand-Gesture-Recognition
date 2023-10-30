@@ -79,7 +79,7 @@ st.title("Hand Gesture Recognition with Streamlit")
 # Open the webcam
 cap = cv2.VideoCapture(0)
 detector = HandDetector(maxHands=1)
-classifier = Classifier("model2/keras_model.h5", "model2/labels.txt")
+classifier = Classifier("keras_model.h5", "labels.txt")
 
 offset = 20
 imgSize = 300
